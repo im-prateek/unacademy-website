@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('nasa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #000000; */
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff0d;
+    height: 60px;
+    width: 100%;
+    padding-right: 50px;
+}
+
+label.logo {
+    /* font-family: 'Heebo', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 30px;
+}
+
+label.logo i {
+    font-size: 13px;
+}
+
+label.logo i:hover {}
+
+span {
+    color: #000000;
+    font-size: 12px;
+}
+.cbseclass-with-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 100px;
+}
+.cbseclass{
+    color: white;
+    font-size: 19px;
+}
+.search-container{
+    width:40vw;
+    padding: 10px;
+    
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    width: 100%;
+    padding-left: 1%;
+    background-color:rgba(255, 255, 255, 0.005);
+    border: 0.5px solid rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+}
+.searchbar input{
+    flex: 1;
+    background-color:transparent;
+    border:0;
+    outline: none;
+    padding:8px 3px;
+    color: rgba(255, 255, 255, 0.516);
+}
+
+.searchbar button{
+    background-color:transparent;
+    border: none;
+    border-radius: 50%;
+}
+.searchbar button:hover{
+    background-color:rgba(255, 255, 255, 0.041);
+}
+
+.left-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* nav ul li {
+    font-family: 'Work Sans', sans-serif;
+
+    margin: 0 5px;
+    display: inline-block;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+nav ul li a {
+    color: white;
+    font-size: 10px;
+    padding: 3px 3px;
+    border-radius: 2px;
+}
+a:hover {
+    color: #a9a9a9;
+    transition: 0.3s;
+} */
+
+.icons {
+    font-size: 11px;
+    padding: 9px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.fa-gift {
+    border: 1px solid grey;
+}
+
+.icons:hover {
+    color: #ffffff22;
+    background-color: #ffffff22;
+}
+
+
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #000000;
+    padding: 7px 11px;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 8px;
+}
+
+/* button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #636363;
+    padding: 7px 11px;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 8px;
+} */
+button:hover {
+    background-color: #ffffffce;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container {
+    /* font-family: 'Work Sans', sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 50px;
+    line-height: 20px;
+}
+
+.logo img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.rightbuttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-login {
+    padding: 9px 22px;
+}
+
+.button-login:hover {
+    background-color: #ffffff1d;
+}
+
+.button-contact {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+}
